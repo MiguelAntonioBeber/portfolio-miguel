@@ -1,0 +1,56 @@
+.container-Contato {
+    width: 100%;
+    height: 70vh;
+    background: linear-gradient(to bottom right, #245b97, #1a7e78);
+    padding-left: 15vw;
+}
+
+.div-contato {
+    padding-left: 10vh;
+    padding-top: 8vh;
+    margin: 0;
+    width: 16vw;
+}
+
+.h1-contato {
+    font-size: 4rem;
+    color: #fafbfc;
+    margin-bottom: 0;
+    line-height: 1.1;
+}
+
+.legenda-ct {
+    margin: 0;
+    text-align: right;
+    color: rgb(214, 214, 214);
+}
+
+.divdesc-contato {
+    height: 30vh;
+    padding-left: 10vh;
+    padding-top: 15px;
+    width: 50vw;
+}
+
+.paragrafo-contato {
+    font-size: 18px;
+    color: rgb(225, 223, 223);
+}
+
+.botao-contato {
+    width: 250px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 30px;
+    border: solid transparent;
+    background-color: white;
+    color: #3065ac;
+    transition: background-color 0.3s ease;
+    transition: background-color 0.2s ease;
+}
+
+.botao-contato:hover {
+    background-color: #1c4d8e;
+    color: white;
+    cursor: pointer;
+}
