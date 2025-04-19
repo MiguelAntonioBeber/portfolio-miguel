@@ -1,5 +1,6 @@
 import React from 'react'
 import '../styles/Contato.css'
+import { Link } from 'react-router-dom';
 
 export default function Contato() {
   return (
@@ -15,11 +16,11 @@ export default function Contato() {
             os links para todas as minhas páginas oficiais. Estarei à disposição para
             responder o mais breve possível.
         </p>
-        <a href="/contato">
+        <Link to="/contato">
           <button className='botao-contato'>
             Entrar em Contato
           </button>
-        </a>
+        </Link>
       </div>
     </main>
   )
