@@ -4,11 +4,14 @@
   justify-content: center;
   align-items: center;
   padding: 0rem 1rem;
-  min-height: 65vh;
+  display: flex;
+  padding-top: 10vh;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .profile-section {
-  max-width: 900px;
+  max-width: 1000px;
   width: 100%;
   margin: 0 auto;
 }
@@ -22,6 +25,7 @@
   padding: 20px;
   margin-bottom: 1.5rem;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
 }
 
 .profile-image-wrapper {
@@ -35,6 +39,8 @@
   padding: 10px;
   border: 1px solid #eaeaea;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+  left: 20px;
+  top: 20px;
 }
 
 .profile-image {
@@ -49,13 +55,15 @@
   flex-direction: column;
   color: white;
   flex: 1;
+  margin-left: 330px;
+  padding-right: 20px;
 }
 
 .profile-header h1 {
   font-size: 2.8rem;
   font-weight: 800;
   margin: 0;
-  margin-left: 35vh;
+  margin-left: 0;
   line-height: 1.1;
   text-transform: none;
 }
@@ -64,9 +72,11 @@
   color: #333;
   font-size: 1.1rem;
   line-height: 1.4;
-  padding: 0 1.5rem;
-  margin-top: 0;
-  margin-left: 35vh;
+  padding: 0;
+  margin-top: 20px;
+  margin-left: 330px;
+  padding-right: 20px;
+  box-sizing: border-box;
 }
 
 .profile-description p {
@@ -79,31 +89,68 @@
   color: #000;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) and (min-width: 641px) {
   .profile-card {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    padding: 1.5rem;
+    min-height: 420px;
   }
   
   .profile-image-wrapper {
-    margin-right: 0;
-    margin-bottom: 1.5rem;
     width: 220px;
-    height: 270px;
+    height: 320px;
   }
   
+  .profile-header {
+    margin-left: 250px;
+  }
+
   .profile-header h1 {
-    font-size: 2.5rem;
-  }
-  
-  .profile-header h2 {
-    font-size: 1.7rem;
+    font-size: 3.4rem;
   }
   
   .profile-description {
-    padding: 0 1rem;
-    text-align: left;
+    margin-left: 0px;
   }
-} 
+}
+
+@media (max-width: 640px) {
+  .profile-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    width: 100%;
+  }
+
+  .profile-header {
+    width: 100%;
+    margin-bottom: 2rem;
+    margin-left: 0;
+    order: 1;
+    padding: 20px;
+  }
+  
+  .profile-image-wrapper  {
+    position: static;
+    width: 100%;
+    height: auto;
+    order: 2;
+    margin: 0;
+  }
+  
+  .profile-image {
+    height: 350px;
+    object-fit: cover;
+  }
+  
+  .profile-header h1 {
+    font-size: 2rem;
+    margin: 10px 0px 0px 0px;
+  }
+  
+  .profile-description {
+    padding: 0 20px 20px;
+    margin-left: 0;
+    text-align: left;
+    width: 100%;
+  }
+}

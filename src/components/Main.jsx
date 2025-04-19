@@ -12,8 +12,7 @@ export default function Main() {
           </div>
           
           <div className="profile-header">
-            <h1>Oi, meu nome é Miguel</h1>
-            <h1>estudo programação no Instituto Federal.</h1>
+            <h1>Oi, meu nome é Miguel <br className='br-mobile'/> estudo programação no Instituto Federal.</h1>
           </div>
         </div>
         
@@ -26,7 +25,7 @@ export default function Main() {
           </p>
           
           <p>
-            Conheci a IPM pelo professor Fabio Alexandrini da materia de
+            Conheci a IPM pelo professor Fabio Alexandrini da matéria de
             Gestão de TI e pretendo trabalhar lá no meu Futuro.
           </p>
         </div>

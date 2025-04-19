@@ -28,35 +28,35 @@ export default function Skills() {
           de ciência da computação e cibersegurança — que são meus maiores focos no momento.
         </p>
         <div className='icones'>
-          <div className='icone'>
+          <div className='icone' id='icone-c'>
             <img src={FotoC} alt="Logo do C"/>
             <span className='nome-linguagem'>Icone do C</span>
           </div>
-          <div className='icone'>
+          <div className='icone' id='icone-cpp'>
             <img src={FotoCPP} alt="Logo do C++"/>
             <span className='nome-linguagem'>Icone do C++</span>
           </div>
-          <div className='icone'>
+          <div className='icone' id='icone-python'>
             <img src={FotoPython} alt="Logo do Python"/>
             <span className='nome-linguagem'>Icone do Python</span>
           </div>
-          <div className='icone'>
+          <div className='icone' id='icone-html'>
             <img src={FotoHTML} alt="Logo do HTML"/>
             <span className='nome-linguagem'>Icone do HTML</span>
           </div>
-          <div className='icone'>
+          <div className='icone' id='icone-css'>
             <img src={FotoCSS} alt="Logo do CSS"/>
             <span className='nome-linguagem'>Icone do CSS</span>
           </div>
-          <div className='icone'>
+          <div className='icone' id='icone-js'>
             <img src={FotoJavaScript} alt="Logo do JavaScript"/>
             <span className='nome-linguagem'>Icone do Javascript</span>
           </div>
-          <div className='icone'>
+          <div className='icone' id='icone-react'>
             <img src={FotoReact} alt="Logo do React"/>
             <span className='nome-linguagem'>Icone do React</span>
           </div>
-          <div className='icone'>
+          <div className='icone' id='icone-tailwind'>
             <img src={FotoTailwind} alt="Logo do Tailwind"/>
             <span className='nome-linguagem'>Icone do Tailwind</span>
           </div>

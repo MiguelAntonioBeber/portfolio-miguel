@@ -6,10 +6,13 @@
 }
 
 .div-contato {
+    display: flex;
+    flex-direction: column; 
     padding-left: 10vh;
     padding-top: 8vh;
     margin: 0;
-    width: 12.5vw;
+    align-items: flex-end; 
+    width: fit-content;
 }
 
 .h1-contato {
@@ -53,4 +56,38 @@
     background-color: #1c4d8e;
     color: white;
     cursor: pointer;
+}
+
+@media (max-width: 640px) {
+
+    .container-Contato {
+        padding-left: 5vw;
+        padding-right: 5vw;
+        height: 70vh;
+    }
+
+    .div-contato {
+        padding-top: 3vh;
+        padding-left: 0;
+    }
+
+    .h1-contato {
+        font-size: 2.4rem ;
+    }
+
+    .divdesc-contato {
+        display: flex;
+        flex-direction: column;
+        width: 90vw;
+        padding-left: 0;
+    }
+
+    .paragrafo-contato {
+        font-size: 1.2rem;
+        padding-right: 2vh;
+    }
+
+    .botao-contato {
+        font-size: 1.2rem;
+    }
 }

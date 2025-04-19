@@ -6,10 +6,13 @@
 }
 
 .div-Skills {
+    display: flex;
+    flex-direction: column; 
     padding-left: 10vh;
     padding-top: 8vh;
     margin: 0;
-    width: 19vw;
+    align-items: flex-end; 
+    width: fit-content;
 }
 
 .h1-Skills {
@@ -97,3 +100,35 @@
     visibility: visible;
     opacity: 1;
   }
+
+  @media (max-width: 640px) {
+
+    .container-Skills {
+        padding-left: 5vw;
+        padding-right: 5vw;
+        height: 80vh;
+    }
+
+    .div-Skills {
+        padding-top: 3vh;
+        padding-left: 0;
+    }
+
+    .h1-Skills {
+        font-size: 2.4rem ;
+    }
+
+    .divdesc-Skills {
+        width: 90vw;
+        padding-left: 0;
+    }
+
+   #icone-html, #icone-css, #icone-tailwind {
+        display: none;
+    }
+
+    .paragrafo-Skills {
+        font-size: 1.2rem;
+        padding-right: 2vh;
+    }
+}

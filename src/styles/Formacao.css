@@ -8,10 +8,13 @@
 }
 
 .div-title {
+    display: flex;
+    flex-direction: column; 
     padding-left: 10vh;
     padding-top: 8vh;
     margin: 0;
-    width: 16vw;
+    align-items: flex-end; 
+    width: fit-content;
 }
 
 .h1form {
@@ -27,6 +30,7 @@
     color: rgb(77, 77, 77);
 }
 
+
 .divdesc {
     height: 30vh;
     padding-left: 10vh;
@@ -36,4 +40,32 @@
 
 .paragrafo {
     font-size: 18px;
+}
+
+@media (max-width: 640px) {
+
+    .container-Formacao {
+        padding-left: 5vw;
+        margin-top: 2vh;
+        height: 70vh;
+    }
+
+    .div-title {
+        padding-top: 3vh;
+        padding-left: 0;
+    }
+
+    .h1form {
+        font-size: 2.4rem ;
+    }
+
+    .divdesc {
+        width: 90vw;
+        padding-left: 0;
+    }
+
+    .paragrafo {
+        font-size: 1.2rem;
+        padding-right: 2vh;
+    }
 }

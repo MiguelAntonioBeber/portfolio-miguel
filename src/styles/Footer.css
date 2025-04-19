@@ -96,3 +96,16 @@ background-color: #fff;
     flex: 1;
     text-align: center;
 }
+
+    @media (max-width: 640px) {
+        .navbar-footer {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+            text-align: center;
+        }
+
+        .navbar-footer li {
+            padding: 0;
+        }
+    }
