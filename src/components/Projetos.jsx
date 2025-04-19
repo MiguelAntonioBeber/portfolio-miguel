@@ -1,5 +1,6 @@
 import React from 'react'
 import '../styles/Projetos.css'
+import Projeto1 from '../assets/projeto1.png';
 
 export default function Projetos() {
   return (
@@ -25,7 +26,7 @@ export default function Projetos() {
                     <h2>Projeto de Software Educacional</h2>
                     <div className="projetos-grid">
                         <div className="projeto-card">
-                            <img src="src\assets\projeto1.png" alt="Projeto 1" className='foto-projeto'/>
+                            <img src={Projeto1} alt="Projeto 1" className='foto-projeto'/>
                             <p>
                                 O sistema em questão, é um software que calcula médias dos alunos
                                 além de agrupar varias informações uteis para os alunos, tanto para

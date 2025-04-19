@@ -1,5 +1,13 @@
 import React from 'react'
 import '../styles/Skills.css'
+import FotoC from '../assets/icons/c.png';
+import FotoCPP from '../assets/icons/cpp.png';
+import FotoCSS from '../assets/icons/css.png';
+import FotoHTML from '../assets/icons/html.png';
+import FotoJavaScript from '../assets/icons/javascript.png';
+import FotoPython from '../assets/icons/python.png';
+import FotoReact from '../assets/icons/react.png';
+import FotoTailwind from '../assets/icons/tailwind.png';
 
 export default function Skills() {
   return (
@@ -21,35 +29,35 @@ export default function Skills() {
         </p>
         <div className='icones'>
           <div className='icone'>
-            <img src="src\assets\icons\c.png" alt="Logo do C"/>
+            <img src={FotoC} alt="Logo do C"/>
             <span className='nome-linguagem'>Icone do C</span>
           </div>
           <div className='icone'>
-            <img src="src\assets\icons\cpp.png" alt="Logo do C++"/>
+            <img src={FotoCPP} alt="Logo do C++"/>
             <span className='nome-linguagem'>Icone do C++</span>
           </div>
           <div className='icone'>
-            <img src="src\assets\icons\python.png" alt="Logo do Python"/>
+            <img src={FotoPython} alt="Logo do Python"/>
             <span className='nome-linguagem'>Icone do Python</span>
           </div>
           <div className='icone'>
-            <img src="src\assets\icons\html.png" alt="Logo do HTML"/>
+            <img src={FotoHTML} alt="Logo do HTML"/>
             <span className='nome-linguagem'>Icone do HTML</span>
           </div>
           <div className='icone'>
-            <img src="src\assets\icons\css.png" alt="Logo do CSS"/>
+            <img src={FotoCSS} alt="Logo do CSS"/>
             <span className='nome-linguagem'>Icone do CSS</span>
           </div>
           <div className='icone'>
-            <img src="src\assets\icons\javascript.png" alt="Logo do JavaScript"/>
+            <img src={FotoJavaScript} alt="Logo do JavaScript"/>
             <span className='nome-linguagem'>Icone do Javascript</span>
           </div>
           <div className='icone'>
-            <img src="src\assets\icons\react.png" alt="Logo do React"/>
+            <img src={FotoReact} alt="Logo do React"/>
             <span className='nome-linguagem'>Icone do React</span>
           </div>
           <div className='icone'>
-            <img src="src\assets\icons\tailwind.png" alt="Logo do Tailwind"/>
+            <img src={FotoTailwind} alt="Logo do Tailwind"/>
             <span className='nome-linguagem'>Icone do Tailwind</span>
           </div>
           

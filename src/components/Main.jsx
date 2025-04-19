@@ -1,5 +1,6 @@
 import React from 'react'
 import '../styles/Main.css'
+import FotoPrincipal from '../assets/foto.png';
 
 export default function Main() {
   return (
@@ -7,7 +8,7 @@ export default function Main() {
       <div className="profile-section">
         <div className="profile-card">
           <div className="profile-image-wrapper">
-            <img src='src\assets\foto.png' alt="Miguel" className="profile-image" />
+            <img src={FotoPrincipal} alt="Miguel" className="profile-image" />
           </div>
           
           <div className="profile-header">

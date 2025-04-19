@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import '../styles/ContatoPage.css';
+import cartinha from '../assets/cartinha.jpg';
 
 export default function ContatoPage() {
   const [mensagem, setMensagem] = useState('');
@@ -37,7 +38,7 @@ export default function ContatoPage() {
   return (
     <>
       <main className="contato-container">
-        <div className='card-ctt'>
+        <div className='card-ctt' style={{ backgroundImage: `url(${cartinha})` }}>
           <div className='conteudo-card'>
             <div>
               <h1 className="contato-titulo">Tem algum projeto em mente? <br /> Fale comigo.</h1>
