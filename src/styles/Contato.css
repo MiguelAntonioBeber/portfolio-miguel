@@ -1,6 +1,6 @@
 .container-Contato {
     width: 100%;
-    height: 70vh;
+    height: 80vh;
     background: linear-gradient(to bottom right, #245b97, #1a7e78);
     padding-left: 15vw;
 }
@@ -58,8 +58,7 @@
     cursor: pointer;
 }
 
-@media (max-width: 1024px) and (min-width: 641px) {
-
+@media (max-width: 1280px) {
     .container-Contato {
         height: 80vh;
     }
@@ -73,6 +72,24 @@
         padding-left: 0;
         padding-bottom: 1.5vh;
     }
+  }
+
+@media (max-width: 1024px) {
+
+    .container-Contato {
+        height: 35vh;
+    }
+
+    .divdesc-contato {
+        width: 70vw;
+        padding-left: 0;
+    }
+
+    .div-contato {
+        padding-top: 0;
+        padding-left: 0;
+        padding-bottom: 1.5vh;
+    }
 
     .botao-contato {
         font-size: 1.2rem;
@@ -80,6 +97,32 @@
 
     .envolvimento {
         text-decoration: none;
+    }
+}
+
+@media (max-width: 900px) {
+    .container-Contato {
+        padding-left: 5vw;
+        margin-top: 2vh;
+        height: 50vh;
+    }
+
+    .div-contato {
+        padding-top: 3vh;
+        padding-left: 0;
+    }
+}
+
+@media (max-width: 800px) {
+    .container-Contato {
+        padding-left: 5vw;
+        margin-top: 2vh;
+        height: 53vh;
+    }
+
+    .div-contato {
+        padding-top: 3vh;
+        padding-left: 0;
     }
 }
 
@@ -117,10 +160,16 @@
     }
 }
 
-@media (max-width: 390px) {
+@media (max-width: 450px) {
+    .container-Contato {
+        height: 80vh;
+    }
+}
+
+@media (max-width: 380px) {
     .container-Contato {
         padding-left: 5vw;
         margin-top: 2vh;
-        height: 100vh;
+        height: 105vh;
     }
 }

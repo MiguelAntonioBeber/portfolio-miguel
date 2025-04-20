@@ -1,6 +1,6 @@
 .container-Projetos {
     width: 100%;
-    height: 80vh;
+    height: 90vh;
     background-color: white;
     display: flex; 
     align-items:flex-start;
@@ -71,9 +71,19 @@
     padding-left: 5vw;
 }
 
-@media (max-width: 1024px) and (min-width: 641px) {
+@media (max-width: 1280px){
     .container-Projetos {
-        height: 140vh;
+        height: 100vh;
+    }
+
+    .foto-projeto {
+        width: 400px;
+    }
+  }
+
+@media (max-width: 1024px){
+    .container-Projetos {
+        height: 55vh;
         display: block;
         flex-direction: column;
         column-gap: 150px;
@@ -81,12 +91,16 @@
 
     .principal {
         width: 100vw;
-        height: 55vh;
+        height: 20vh;
     }
 
     .divprojetos {
         margin-top: 0;
-        width: 100vw;    
+        width: 100vw;  
+    }
+
+    .div-Projetos {
+        padding-top: 0;
     }
 
     .divdesc-Projetos {
@@ -99,6 +113,53 @@
         display: flex;
         margin: 0 auto;
     }
+}
+
+@media (max-width: 900px) {
+    .container-Projetos {
+        height: 75vh;
+        flex-direction: column;
+        row-gap: 10px;
+        display: flex;
+    }   
+
+    .principal {
+        height: 30vh;
+    }
+
+    .div-Projetos {
+        padding-top: 0;
+        padding-left: 5vh;
+    }
+
+    .divdesc-Projetos {
+        padding: 5vw;
+        width: 100vw;
+    }
+}
+
+@media (max-width: 800px) {
+    .container-Projetos {
+        height: 75vh;
+        flex-direction: column;
+        row-gap: 10px;
+        display: flex;
+    }   
+
+    .principal {
+        height: 30vh;
+    }
+
+    .div-Projetos {
+        padding-top: 0;
+        padding-left: 5vh;
+    }
+
+    .divdesc-Projetos {
+        padding: 5vw;
+        width: 100vw;
+    }
+    
 }
 
 @media (max-width: 640px) {
@@ -153,23 +214,23 @@
     }
 }
 
-@media (max-width: 450px) {
-    .cardprojeto {
-        width: 100vw;
-        border-radius: 0;
-        padding: 0;
-    }
 
-    .projeto-card p {
-        padding-bottom: 50px;
+@media (max-width: 450px) {
+    .container-Projetos {
+        
+        height: 95vh;
+        flex-direction: column;
+        row-gap: 80px;
+        display: flex;
     }
 }
 
-@media (max-width: 390px) {
+@media (max-width: 380px) {
     .container-Projetos {
         height: 120vh;
         flex-direction: column;
-        row-gap: 100px;
+        row-gap: 120px;
+        display: flex;
     }   
 
     .cardprojeto {

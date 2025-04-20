@@ -4,10 +4,8 @@
 
 html, body {
     width: 100%;
-    overflow-x: hidden;
     margin: 0;
     padding: 0;
-    scroll-behavior: smooth !important;
 }
 
 body {
@@ -19,32 +17,8 @@ body {
     width: 100%;
 }
 
-#root {
-    width: 100%;
-    overflow-x: hidden;
-}
-
-::-webkit-scrollbar {
-    width: 6px; 
-  }
-  
-  ::-webkit-scrollbar-track {
-    background: #f0f0f0; 
-  }
-  
-  ::-webkit-scrollbar-thumb {
-    background-color: #c0c0c0;
-    border-radius: 10px;
-    border: 2px solid transparent;
-    background-clip: content-box;
-  }
-  
-  ::-webkit-scrollbar-thumb:hover {
-    background-color: #a0a0a0;
-  }
-
 @media (max-width: 768px) {
-    html, body, #root {
+    html, body {
         width: 100vw;
         overflow-x: hidden;
     }

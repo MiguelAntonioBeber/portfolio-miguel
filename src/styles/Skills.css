@@ -1,6 +1,6 @@
 .container-Skills {
     width: 100%;
-    height: 70vh;
+    height: 80vh;
     background-color: white;
     padding-left: 15vw;
 }
@@ -40,34 +40,20 @@
     color: rgb(18, 18, 18);
 }
 
-.botao-Skills {
-    width: 150px;
-    height: 50px;
-    font-size: 20px;
-    border-radius: 30px;
-    border: solid transparent;
-    background-color: #255b98;
-    color: white;
-    transition: background-color 0.3s ease;
-    transition: background-color 0.2s ease;
-}
-
 .botao-Skills:hover {
     background-color: #1c4d8e;
     color: white;
 }
 
 .icones {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 24px;
-    justify-content: center;
-  }
+    overflow-x: auto;  
+    justify-content: flex-start; 
+    gap: 10px;
+    padding: 10px 0;
+  } 
   
   .icone {
-    position: relative;
-    display: inline-block;
-    margin: 12px;
+    margin: 6px;
     
   }
   
@@ -101,12 +87,32 @@
     opacity: 1;
   }
 
-  @media (max-width: 1024px) and (min-width: 641px) {
+  @media (min-width: 1281px){
+
+  }
+
+  @media (max-width: 1280px){
+    .container-Skills {
+        height: 80vh;
+    }
+
+    .divdesc-Skills {
+        width: 70vw;
+        padding-left: 0;
+    }
+    
+    .div-Skills {
+        padding-left: 0;
+        padding-bottom: 1.5vh;
+    }
+  }
+
+  @media (max-width: 1024px) {
 
     .container-Skills {
         
         padding-left: 13vw;
-        height: 80vh;
+        height: 35vh;
     }
 
     .divdesc-Skills {
@@ -115,6 +121,7 @@
     }
 
     .div-Skills {
+        padding-top: 0;
         padding-left: 0;
         padding-bottom: 1.5vh;
     }
@@ -122,6 +129,32 @@
     .icones {
         width: 75vw;
         gap: 5px !important;
+    }
+}
+
+@media (max-width: 900px) {
+    .container-Skills {
+        padding-left: 5vw;
+        margin-top: 2vh;
+        height: 48vh;
+    }
+
+    .div-Skills {
+        padding-top: 3vh;
+        padding-left: 0;
+    }
+}
+
+@media (max-width: 800px) {
+    .container-Skills {
+        padding-left: 5vw;
+        margin-top: 2vh;
+        height: 53vh;
+    }
+
+    .div-Skills {
+        padding-top: 3vh;
+        padding-left: 0;
     }
 }
 
@@ -162,7 +195,7 @@
     .container-Skills {
         padding-left: 5vw;
         padding-right: 5vw;
-        height: 70vh;
+        height: 80vh;
     }
 
     .icones {
@@ -172,11 +205,11 @@
     }
 }
 
-@media (max-width: 390px) {
+@media (max-width: 380px) {
     .container-Skills {
         padding-left: 5vw;
         margin-top: 2vh;
-        height: 90vh;
+        height: 100vh;
     }
 
     #icone-html, #icone-css, #icone-tailwind, #icone-c {

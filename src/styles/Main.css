@@ -89,7 +89,7 @@
   color: #000;
 }
 
-@media (max-width: 1024px) and (min-width: 641px) {
+@media (max-width: 1024px) {
   .profile-card {
     min-height: 370px;
   }
@@ -153,5 +153,11 @@
     margin-left: 0;
     text-align: left;
     width: 100%;
+  }
+}
+
+@media (max-width: 380px) {
+  .main-container {
+    margin-top: 3vh;
   }
 }
