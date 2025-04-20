@@ -106,7 +106,7 @@
     .container-Skills {
         
         padding-left: 13vw;
-        height: 55vh;
+        height: 80vh;
     }
 
     .divdesc-Skills {
@@ -156,3 +156,32 @@
         padding-right: 2vh;
     }
 }
+
+@media (max-width: 450px) {
+
+    .container-Skills {
+        padding-left: 5vw;
+        padding-right: 5vw;
+        height: 70vh;
+    }
+
+    .icones {
+        width: 95vw;
+        gap: 2px !important;
+        padding-right: 20px;
+    }
+}
+
+@media (max-width: 390px) {
+    .container-Skills {
+        padding-left: 5vw;
+        margin-top: 2vh;
+        height: 90vh;
+    }
+
+    #icone-html, #icone-css, #icone-tailwind, #icone-c {
+        display: none;
+    }
+}
+
+

@@ -61,7 +61,7 @@
 @media (max-width: 1024px) and (min-width: 641px) {
 
     .container-Contato {
-        height: 55vh;
+        height: 80vh;
     }
 
     .divdesc-contato {
@@ -88,7 +88,7 @@
     .container-Contato {
         padding-left: 5vw;
         padding-right: 5vw;
-        height: 90vh;
+        height: 75vh;
     }
 
     .div-contato {
@@ -114,5 +114,13 @@
 
     .botao-contato {
         font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 390px) {
+    .container-Contato {
+        padding-left: 5vw;
+        margin-top: 2vh;
+        height: 100vh;
     }
 }
