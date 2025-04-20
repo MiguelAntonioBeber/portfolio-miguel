@@ -27,7 +27,7 @@ export default function Header({ children }) {
           </div>
 
           <ul className="navbar-right desktop-menu">
-            <li><RouterLink to="/" className='navLink'>Home</RouterLink></li>
+            <li><RouterLink to="/" className='navLink' id='home-link'>Home</RouterLink></li>
             <li><ScrollLink to="idsobre" smooth={true} duration={1000} offset={-80} className='navLink'>Sobre</ScrollLink></li>
             <li><ScrollLink to="idform" smooth={true} duration={1000} offset={-80} className='navLink'>Formação</ScrollLink></li>
             <li><ScrollLink to="idhab" smooth={true} duration={1000} offset={-80} className='navLink'>Habilidades</ScrollLink></li>

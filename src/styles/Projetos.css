@@ -71,6 +71,34 @@
     padding-left: 5vw;
 }
 
+@media (max-width: 1024px) and (min-width: 641px) {
+    .container-Projetos {
+        height: 90vh;
+        display: block;
+    } 
+
+    .principal {
+        width: 100vw;
+        height: 35vh;
+    }
+
+    .divprojetos {
+        margin-top: 0;
+        width: 100vw;    
+    }
+
+    .divdesc-Projetos {
+        width: 80vw;
+    }
+
+    .cardprojeto {
+        width: 80vw;
+        border-radius: 30px;
+        display: flex;
+        margin: 0 auto;
+    }
+}
+
 @media (max-width: 640px) {
     .container-Projetos {
         height: 90vh;

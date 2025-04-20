@@ -58,6 +58,31 @@
     cursor: pointer;
 }
 
+@media (max-width: 1024px) and (min-width: 641px) {
+
+    .container-Contato {
+        height: 55vh;
+    }
+
+    .divdesc-contato {
+        width: 70vw;
+        padding-left: 0;
+    }
+
+    .div-contato {
+        padding-left: 0;
+        padding-bottom: 1.5vh;
+    }
+
+    .botao-contato {
+        font-size: 1.2rem;
+    }
+
+    .envolvimento {
+        text-decoration: none;
+    }
+}
+
 @media (max-width: 640px) {
 
     .container-Contato {

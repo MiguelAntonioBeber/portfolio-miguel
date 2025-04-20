@@ -101,6 +101,30 @@
     opacity: 1;
   }
 
+  @media (max-width: 1024px) and (min-width: 641px) {
+
+    .container-Skills {
+        
+        padding-left: 13vw;
+        height: 55vh;
+    }
+
+    .divdesc-Skills {
+        width: 70vw;
+        padding-left: 0;
+    }
+
+    .div-Skills {
+        padding-left: 0;
+        padding-bottom: 1.5vh;
+    }
+
+    .icones {
+        width: 75vw;
+        gap: 5px !important;
+    }
+}
+
   @media (max-width: 640px) {
 
     .container-Skills {

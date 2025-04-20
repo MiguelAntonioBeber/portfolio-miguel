@@ -20,7 +20,7 @@ export default function Contato() {
           de tecnologia, especialmente relacionadas à programação e cibersegurança. 
           Estarei à disposição para responder o mais breve possível, geralmente em até 24 horas.
         </p>
-        <Link to="/contato">
+        <Link to="/contato" className='envolvimento'>
           <button className='botao-contato'>
             Entrar em Contato
           </button>
