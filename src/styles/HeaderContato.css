@@ -57,3 +57,39 @@
     cursor: pointer;
 }
 
+@media (max-width: 450px){
+    .navbar-container-ctt {
+        padding: 0 15px !important;
+    }
+
+    #logo-ctt {
+        font-size: 20px;
+    }
+
+    .navLink-ctt span {
+        display: none;
+    }
+
+    .navLink-ctt {
+        font-size: 14px !important;
+    }
+}
+
+@media (max-width: 390px) {
+    .navbar-container-ctt {
+        padding: 0 5px !important;
+    }
+
+    #logo-ctt {
+        font-size: 20px;
+    }
+
+    .navLink-ctt span {
+        display: none;
+    }
+
+    .navLink-ctt {
+        font-size: 13px !important;
+    }
+}
+

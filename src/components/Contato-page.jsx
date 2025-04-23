@@ -40,7 +40,7 @@ export default function ContatoPage() {
       <main className="contato-container">
         <div className='card-ctt' style={{ backgroundImage: `url(${cartinha})` }}>
           <div className='conteudo-card'>
-            <div>
+            <div className='div-paradimensionar'>
               <h1 className="contato-titulo">Tem algum projeto em mente? <br /> Fale comigo.</h1>
               <p className='contato-texto'>Estou sempre em busca de novas oportunidades <br /> e colaborações criativas. Use o formulário abaixo <br /> ou me mande uma mensagem pelas redes sociais.</p>
             </div>
@@ -97,12 +97,15 @@ export default function ContatoPage() {
             </div>
 
             <div className='formdiv'>
-              <h2 className='titulo-form-ctt'>Formulário de Contato</h2>
+              <form onSubmit={handleSubmit} className="form-contato" id="contato">
+                <h2 className="titulo-form-ctt">Formulário de Contato</h2>
 
-              <form onSubmit={handleSubmit} className="form-contato" id='contato'>
-                <input type="text" id="nome" name="nome" required placeholder='Nome' />
-                <input type="email" id="email" name="email" required placeholder='E-mail' />
-                <textarea id="mensagem" name="mensagem" rows="5" required placeholder='Assunto'></textarea>
+                <div className="input-row">
+                  <input type="text" id="nome" name="nome" required placeholder="Nome" />
+                  <input type="email" id="email" name="email" required placeholder="E-mail" />
+                </div>
+
+                <textarea id="mensagem" name="mensagem" rows="5" required placeholder="Assunto"></textarea>
 
                 <input type="hidden" name="_captcha" value="false" />
                 <input type="hidden" name="_redirect" value="" />

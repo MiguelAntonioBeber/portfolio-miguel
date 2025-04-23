@@ -12,7 +12,7 @@ export default function Header({ children }) {
             <RouterLink to="/" id='logo-ctt'>Miguel Antonio Beber</RouterLink>
           </div>
           <ul className="navbar-right-ctt">
-          <li><RouterLink to="/" className='navLink-ctt'>Voltar para a pagina principal?</RouterLink ></li>
+          <li><RouterLink to="/" className='navLink-ctt'>Voltar <span>para</span> a pagina principal?</RouterLink ></li>
           </ul>
         </div>
       </nav>
